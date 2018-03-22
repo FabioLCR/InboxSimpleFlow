@@ -1,0 +1,34 @@
+#headerSIDEC{
+    padding-left : 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: auto;
+    min-height: 99px;
+    flex-wrap: nowrap;
+    background-image: url("../img/logo_bar.jpg");
+    background-repeat: repeat-x;
+}
+#headerSIDEC>.navbar-brand{
+    padding:0px;
+    height: 100%;
+    position: absolute;
+}
+
+#headerSIDEC>.containerSIDEC{
+    display: block;
+    text-align: right;
+    height: auto;
+    width: 100%;
+    min-height: 99px;
+    padding-top: 59px;
+}
+#headerSIDEC>.containerSIDEC>.containerSIDEC{
+    display: inline-block;
+    height: auto;
+    width: auto;
+
+}
+
+.navbar-togglerSIDEC{
+    border: none;
+}
